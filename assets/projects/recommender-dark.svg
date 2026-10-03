@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" width="320" height="200" role="img" aria-labelledby="title desc">
+  <title id="title">Recommending with reasons</title>
+  <desc id="desc">A sparse user-game matrix connects to a recommended item and two related items. Copper or amber connects the recommendation to a short review-evidence fragment.</desc>
+  <rect width="320" height="200" fill="#171519"/>
+  <g fill="none" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M36 44 H140 V148 H36 Z M62 44 V148 M88 44 V148 M114 44 V148 M36 70 H140 M36 96 H140 M36 122 H140" stroke="#3B342E"/>
+  <g fill="#D3C2AC">
+    <rect x="44" y="52" width="10" height="10" rx="2"/>
+    <rect x="96" y="52" width="10" height="10" rx="2"/>
+    <rect x="70" y="78" width="10" height="10" rx="2"/>
+    <rect x="122" y="104" width="10" height="10" rx="2"/>
+    <rect x="44" y="130" width="10" height="10" rx="2"/>
+    <rect x="96" y="130" width="10" height="10" rx="2"/>
+  </g>
+  <rect x="93" y="101" width="16" height="16" rx="3" stroke="#F2AB59"/>
+  <path d="M151 109 H176 M169 102 L176 109 L169 116 M214 101 L265 57 M214 101 L272 125" stroke="#D3C2AC"/>
+  <circle cx="265" cy="57" r="9" fill="#171519" stroke="#D3C2AC"/>
+  <circle cx="272" cy="125" r="9" fill="#171519" stroke="#D3C2AC"/>
+  <path d="M214 115 V157 H231" stroke="#F2AB59"/>
+  <circle cx="214" cy="101" r="13" fill="#171519" stroke="#F2AB59"/>
+  <circle cx="214" cy="101" r="4" fill="#F2AB59"/>
+  <path d="M238 157 H281 M238 169 H265" stroke="#D3C2AC"/>
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" width="320" height="200" role="img" aria-labelledby="title desc">
+  <title id="title">Listening to biodiversity</title>
+  <desc id="desc">Conceptual time-frequency field with three curved bird-call ridges above restrained background marks. The middle call is copper or amber. This illustration is not a recorded spectrogram.</desc>
+  <rect width="320" height="200" fill="#FBF6ED"/>
+  <g fill="none" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M36 36 V163 H286" stroke="#544638"/>
+  <path d="M42 67 H284 M42 109 H284 M92 39 V157 M155 39 V157 M218 39 V157" stroke="#E2D4C2"/>
+  <path d="M48 145 H65 M78 134 H94 M110 148 H124 M139 137 H153 M168 146 H187 M200 132 H218 M238 147 H254 M265 133 H282 M48 90 H57 M110 83 H122 M182 53 H193 M269 94 H282" stroke="#E2D4C2"/>
+  <path d="M54 123 C64 117 67 79 82 71 C95 64 100 86 112 88 M211 116 C224 109 229 68 245 58 C254 53 262 60 273 72" stroke="#544638" stroke-width="4"/>
+  <path d="M130 115 C142 104 147 66 161 61 C174 56 179 79 188 90" stroke="#A45A25" stroke-width="4"/>
+  <path d="M60 132 L72 128 M102 111 L112 108 M151 122 L165 121 M206 149 L217 146 M248 113 L260 111" stroke="#544638"/>
+  </g>
+</svg>

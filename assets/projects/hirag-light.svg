@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" width="320" height="200" role="img" aria-labelledby="title desc">
+  <title id="title">Following the right paths</title>
+  <desc id="desc">Two sparse knowledge-graph clusters joined by a selected copper or amber route, with nearby text-fragment marks indicating source evidence. The selected route does not imply a guaranteed best answer.</desc>
+  <rect width="320" height="200" fill="#FBF6ED"/>
+  <g fill="none" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M63 63 L38 119 L74 158 L109 112 L63 63 M38 119 L109 112 M63 63 L158 80 M212 108 L266 57 L279 136 L232 161 L212 108 M212 108 L279 136" stroke="#544638"/>
+  <path d="M109 112 L158 80 L212 108" stroke="#A45A25" stroke-width="4"/>
+  <g fill="#FBF6ED" stroke="#544638">
+    <circle cx="63" cy="63" r="8"/>
+    <circle cx="38" cy="119" r="8"/>
+    <circle cx="74" cy="158" r="8"/>
+    <circle cx="266" cy="57" r="8"/>
+    <circle cx="279" cy="136" r="8"/>
+    <circle cx="232" cy="161" r="8"/>
+  </g>
+  <g fill="#FBF6ED" stroke="#A45A25">
+    <circle cx="109" cy="112" r="9"/>
+    <circle cx="212" cy="108" r="9"/>
+    <rect x="152" y="74" width="12" height="12" rx="2" fill="#A45A25"/>
+  </g>
+  <path d="M141 39 H179 M141 50 H166 M139 139 H180 M139 150 H164" stroke="#544638"/>
+  <path d="M158 118 V128" stroke="#E2D4C2"/>
+  </g>
+</svg>

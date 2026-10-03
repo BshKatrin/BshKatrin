@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" width="320" height="200" role="img" aria-labelledby="title desc">
+  <title id="title">Reading between sentences</title>
+  <desc id="desc">Neighbouring sentences represented by three rows of token blocks, with a dashed speaker boundary and a small conceptual probability trace. Copper or amber marks the change in context, not a measured prediction.</desc>
+  <rect width="320" height="200" fill="#171519"/>
+  <g fill="none" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">  <rect x="38" y="40" width="36" height="17" rx="3" fill="#3B342E" stroke="#D3C2AC"/>
+  <rect x="84" y="40" width="49" height="17" rx="3" fill="#3B342E" stroke="#D3C2AC"/>
+  <rect x="143" y="40" width="29" height="17" rx="3" fill="#3B342E" stroke="#D3C2AC"/>
+  <rect x="207" y="40" width="30" height="17" rx="3" fill="#3B342E" stroke="#D3C2AC"/>
+  <rect x="247" y="40" width="34" height="17" rx="3" fill="#3B342E" stroke="#D3C2AC"/>
+  <rect x="38" y="72" width="50" height="17" rx="3" fill="#3B342E" stroke="#D3C2AC"/>
+  <rect x="98" y="72" width="30" height="17" rx="3" fill="#3B342E" stroke="#D3C2AC"/>
+  <rect x="138" y="72" width="39" height="17" rx="3" fill="#3B342E" stroke="#D3C2AC"/>
+  <rect x="207" y="72" width="41" height="17" rx="3" fill="#F2AB59" stroke="#F2AB59"/>
+  <rect x="258" y="72" width="23" height="17" rx="3" fill="#3B342E" stroke="#D3C2AC"/>
+  <rect x="38" y="104" width="29" height="17" rx="3" fill="#3B342E" stroke="#D3C2AC"/>
+  <rect x="77" y="104" width="55" height="17" rx="3" fill="#3B342E" stroke="#D3C2AC"/>
+  <rect x="142" y="104" width="35" height="17" rx="3" fill="#3B342E" stroke="#D3C2AC"/>
+  <rect x="207" y="104" width="27" height="17" rx="3" fill="#3B342E" stroke="#D3C2AC"/>
+  <rect x="244" y="104" width="37" height="17" rx="3" fill="#3B342E" stroke="#D3C2AC"/>
+  <path d="M194 32 V167" stroke="#D3C2AC" stroke-dasharray="5 8"/>
+  <path d="M38 167 H281" stroke="#3B342E"/>
+  <path d="M38 154 C59 154 66 148 84 150 S114 157 131 152 S157 149 170 152" stroke="#D3C2AC"/>
+  <path d="M170 152 C186 156 190 137 205 137 L221 138" stroke="#F2AB59" stroke-width="4"/>
+  <path d="M221 138 C239 140 249 135 261 137 L281 136" stroke="#D3C2AC"/>
+  </g>
+</svg>

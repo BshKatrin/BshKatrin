@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" width="320" height="200" role="img" aria-labelledby="title desc">
+  <title id="title">Keeping an eye on the room</title>
+  <desc id="desc">Two conceptual room-sensor traces on a shared time grid: a continuous copper or amber temperature-like signal and a dashed dusk-blue humidity-like signal. No numeric readings or deployment status are implied.</desc>
+  <rect width="320" height="200" fill="#171519"/>
+  <g fill="none" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M82 34 V166 M133 34 V166 M184 34 V166 M235 34 V166 M34 54 H286 M34 128 H286" stroke="#3B342E"/>
+  <path d="M34 33 V166 H286 M34 96 H286" stroke="#D3C2AC"/>
+  <path d="M43 76 C61 76 65 69 82 70 S109 76 125 63 S151 58 164 46 S192 42 207 49 S228 68 245 65 S268 59 283 60" stroke="#F2AB59" stroke-width="4"/>
+  <path d="M43 122 C64 122 70 136 90 132 S112 122 132 130 S154 149 174 144 S200 126 220 128 S248 143 266 137 L283 134" stroke="#8586B5" stroke-dasharray="8 8"/>
+  </g>
+</svg>
