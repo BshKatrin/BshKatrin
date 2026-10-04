@@ -87,7 +87,7 @@ We started with logistic regression, used species taxonomy to build a hierarchic
 
 **NLP classification & sequence modelling · 👤👤-person academic project · 2026**
 
-🥇 Our best pipeline combined CamemBERT and BiLSTM models, achieving **0.899 F1 in grouped out-of-fold evaluation** and earning us **first place on the course project leaderboard**.
+🥇 Our best pipeline combined CamemBERT and BiLSTM models, achieving **0.899 F1 in grouped out-of-fold evaluation** and earning us **1st place on the course project leaderboard**.
 
 <details>
 <summary>Tasks and approach</summary>
@@ -180,7 +180,7 @@ Python · Scrapy · Playwright · SHAP · React · TypeScript · Vercel
 
 #### [Recommending with reasons](https://github.com/Franciline/Recommendation_system)
 
-**Explainable board-game recommender** · 👤👤👤-person academic research project · 2025**
+**Explainable board-game recommender** · 👤👤👤-person academic research project · 2025
 
 Explaining board-game recommendations with collaborative filtering, NLP and an interactive Dash app.
 
