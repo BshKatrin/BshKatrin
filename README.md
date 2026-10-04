@@ -142,6 +142,34 @@ GraphRAG · ColBERT · Dijkstra · Minimax · MCTS
 ---
 
 <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/projects/wine-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/projects/wine-light.svg">
+  <img src="assets/projects/wine-light.svg" width="128" height="80" align="right"
+       alt="Wine bottle connected to positive and negative feature contributions in a schematic prediction explanation">
+</picture>
+
+#### [Decoding the bottle](https://github.com/BshKatrin/Wine-Quality---DALAS)
+
+**Wine rating prediction & interpretation · 👤👤-person academic project · 2025**
+
+<!-- Predicting public wine ratings from price, origin, grapes and taste, and exploring what drives them with SHAP. -->
+
+<!-- <details>
+<summary>Data, models and explanations</summary>
+
+We collected wine data from Vivino and SimpleWine, explored it, imputed missing values, and compared Random Forest, XGBoost and CatBoost models. We also studied whether a wine is rated above the average of others in the same price range, and used SHAP to understand the factors behind the predictions.
+
+To showcase our best results we built a website, deployed on Vercel. You can browse **9,329 held-out test wines**, compare actual and predicted ratings, and explore individual SHAP explanations.  -->
+
+Python · Scrapy · Playwright · SHAP · React · TypeScript · Vercel
+
+</details>
+
+[Report →](https://github.com/BshKatrin/Wine-Quality---DALAS/blob/main/reports/DALAS_wine_project.pdf) · [Website →](https://web-seven-omega-81.vercel.app/)
+
+---
+
+<picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/projects/recommender-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/projects/recommender-light.svg">
   <img src="assets/projects/recommender-light.svg" width="128" height="80" align="right"

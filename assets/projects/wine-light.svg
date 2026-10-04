@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" width="320" height="200" role="img" aria-labelledby="title desc">
+  <title id="title">Decoding the bottle</title>
+  <desc id="desc">A wine bottle connects to a schematic feature-contribution plot. Bars extending left and right of a baseline suggest negative and positive contributions to a predicted public rating. Conceptual illustration, not measured SHAP values.</desc>
+  <rect width="320" height="200" fill="#FBF6ED"/>
+  <g fill="none" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M62 29 H86 V63 C86 74 103 78 103 94 V165 Q103 174 94 174 H54 Q45 174 45 165 V94 C45 78 62 74 62 63 Z" stroke="#544638"/>
+    <path d="M62 43 H86" stroke="#544638"/>
+    <rect x="54" y="109" width="40" height="36" rx="3" fill="#E2D4C2" stroke="#544638"/>
+    <path d="M64 121 H84 M64 133 H77" stroke="#544638"/>
+    <path d="M116 101 H150 M143 94 L150 101 L143 108" stroke="#544638"/>
+    <path d="M217 34 V171" stroke="#544638"/>
+    <path d="M172 53 H204 M172 86 H204 M172 119 H204 M172 152 H204" stroke="#E2D4C2"/>
+    <rect x="217" y="44" width="67" height="18" rx="3" fill="#A45A25" stroke="#A45A25"/>
+    <rect x="180" y="77" width="37" height="18" rx="3" stroke="#544638"/>
+    <rect x="217" y="110" width="42" height="18" rx="3" stroke="#544638"/>
+    <rect x="192" y="143" width="25" height="18" rx="3" stroke="#544638"/>
+  </g>
+</svg>
