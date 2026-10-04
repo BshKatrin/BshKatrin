@@ -27,7 +27,7 @@ LLMs and their agentic capabilities have become a big part of how I work. I love
        alt="Conceptual familiar and unfamiliar input distributions with a detection threshold">
 </picture>
 
-#### Detecting the unfamiliar
+#### [Detecting the unfamiliar](https://github.com/BshKatrin/distill-ood-detection)
 
 **Model distillation for OOD detection · [ISIR](https://www.isir.upmc.fr/) research internship, 2026**
 
@@ -51,13 +51,13 @@ SLURM · Python · PyTorch · OOD evaluation
        alt="Three aligned panels: mel spectrogram, frequency features and event gaps">
 </picture>
 
-#### Listening to biodiversity
+#### [Listening to biodiversity](https://github.com/glouno/birdclef_2026_ML)
 
 **[BirdCLEF+ 2026 Challenge](https://www.kaggle.com/competitions/birdclef-2026): audio classification · 👤👤-person academic project · 2026**
 
 > **This is my hardest pure ML project so far, and the one I'm most proud of.**
 >
-> Have a look at our [report source →](../my-path/reports/Projet_ML_BirdClef2026/main.tex) to see how we approached it.
+> Have a look at our [report source →](https://github.com/glouno/birdclef_2026_ML/blob/master/rapport.pdf) to see how we approached it.
 
 Classical ML for biodiversity audio, with a best result of **0.749 ROC-AUC on noisy soundscapes**.
 
@@ -81,7 +81,7 @@ We started with logistic regression, used species taxonomy to build a hierarchic
        alt="True speaker interval and predicted probability with early and late boundary crossings">
 </picture>
 
-#### The Road to First Place: Sentiment & Speakers
+#### [The Road to First Place: Sentiment & Speakers](https://github.com/BshKatrin/RITAL-NLP-project)
 
 **NLP classification & sequence modelling · 👤👤-person academic project · 2026**
 
@@ -101,7 +101,7 @@ PyTorch · RNN (BiLSTM) · Transformers (CamemBERT)
 
 </details>
 
-[Report source →](../my-path/reports/RITAL_NLP_Projet-2/main.tex) · [Code →](https://github.com/BshKatrin/RITAL-NLP-project)
+[Report source →](https://github.com/BshKatrin/RITAL-NLP-project/blob/main/report.pdf)
 
 ---
 
@@ -112,9 +112,36 @@ PyTorch · RNN (BiLSTM) · Transformers (CamemBERT)
        alt="Sparse user-game matrix connected to a recommendation and review evidence">
 </picture>
 
-#### Recommending with reasons
+#### [Strengthening the Local–Global Bridge](https://github.com/glouno/RITAL-IR-project/)
 
-**[Explainable board-game recommender](https://github.com/Franciline/Recommendation_system) · 👤👤👤-person academic research project · 2025**
+**[HiRAG](https://arxiv.org/abs/2503.10150) paper reproduction & improvement · 👤👤-person academic project · 2026**
+
+Improving retrieval and connections between local and global knowledge in a graph-based RAG pipeline.
+
+<details>
+<summary>Experiments and evaluation</summary>
+
+For this project, our goal was to improve the scientific paper in the Information Retrieval domain. Chosen paper: [Retrieval-Augmented Generation with Hierarchical Knowledge](https://arxiv.org/abs/2503.10150).
+
+We experimented with:
+
+- Improving ranking of retrieved relevant passages with ColBERT-based (latent attention) reranking
+- Improving bridge construction between local and global knowledge with weighted Dijkstra, minimax and Monte Carlo Tree Search (MCTS).
+
+We evaluated performance with:
+
+- LLM-as-a-judge evaluation
+- Human annotation
+
+GraphRAG · ColBERT · Dijkstra · Minimax · MCTS
+
+</details>
+
+[Presentation slides →](https://github.com/glouno/RITAL-IR-project/blob/master/presentation.pdf)
+
+#### [Recommending with reasons](https://github.com/Franciline/Recommendation_system)
+
+**Explainable board-game recommender** · 👤👤👤-person academic research project · 2025**
 
 Explaining board-game recommendations with collaborative filtering, NLP and an interactive Dash app.
 
@@ -141,33 +168,6 @@ Local LLM (Ollama) · Clustering · Python · Recommender systems · NLP · Dash
   <img src="assets/projects/hirag-light.svg" width="128" height="80" align="right"
        alt="Global, bridge and local graph layers with a broken middle bridge">
 </picture>
-
-#### Strengthening the Local–Global Bridge
-
-**[HiRAG](https://arxiv.org/abs/2503.10150) paper reproduction & improvement · 👤👤-person academic project · 2026**
-
-Improving retrieval and connections between local and global knowledge in a graph-based RAG pipeline.
-
-<details>
-<summary>Experiments and evaluation</summary>
-
-For this project, our goal was to improve the scientific paper in the Information Retrieval domain. Chosen paper: [Retrieval-Augmented Generation with Hierarchical Knowledge](https://arxiv.org/abs/2503.10150).
-
-We experimented with:
-
-- Improving ranking of retrieved relevant passages with ColBERT-based (latent attention) reranking
-- Improving bridge construction between local and global knowledge with weighted Dijkstra, minimax and Monte Carlo Tree Search (MCTS).
-
-We evaluated performance with:
-
-- LLM-as-a-judge evaluation
-- Human annotation
-
-GraphRAG · ColBERT · Dijkstra · Minimax · MCTS
-
-</details>
-
-[Presentation slides →](reports/hirag-final-presentation.pptx)
 
 ## Software & IoT projects
 
