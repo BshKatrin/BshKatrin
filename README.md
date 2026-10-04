@@ -106,10 +106,10 @@ PyTorch · RNN (BiLSTM) · Transformers (CamemBERT)
 ---
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/projects/recommender-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/projects/recommender-light.svg">
-  <img src="assets/projects/recommender-light.svg" width="128" height="80" align="right"
-       alt="Sparse user-game matrix connected to a recommendation and review evidence">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/projects/hirag-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/projects/hirag-light.svg">
+  <img src="assets/projects/hirag-light.svg" width="128" height="80" align="right"
+       alt="Global, bridge and local graph layers with a broken middle bridge">
 </picture>
 
 #### [Strengthening the Local–Global Bridge](https://github.com/glouno/RITAL-IR-project/)
@@ -139,6 +139,15 @@ GraphRAG · ColBERT · Dijkstra · Minimax · MCTS
 
 [Presentation slides →](https://github.com/glouno/RITAL-IR-project/blob/master/presentation.pdf)
 
+---
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/projects/recommender-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/projects/recommender-light.svg">
+  <img src="assets/projects/recommender-light.svg" width="128" height="80" align="right"
+       alt="Sparse user-game matrix connected to a recommendation and review evidence">
+</picture>
+
 #### [Recommending with reasons](https://github.com/Franciline/Recommendation_system)
 
 **Explainable board-game recommender** · 👤👤👤-person academic research project · 2025**
@@ -161,13 +170,6 @@ Local LLM (Ollama) · Clustering · Python · Recommender systems · NLP · Dash
 [Report →](https://github.com/Franciline/Recommendation_system/blob/main/reports/Project_Report.pdf) · [Demo →](https://github.com/Franciline/Recommendation_system/blob/main/reports/Preview_video.mp4)
 
 ---
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/projects/hirag-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/projects/hirag-light.svg">
-  <img src="assets/projects/hirag-light.svg" width="128" height="80" align="right"
-       alt="Global, bridge and local graph layers with a broken middle bridge">
-</picture>
 
 ## Software & IoT projects
 
