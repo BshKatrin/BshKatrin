@@ -27,7 +27,7 @@ LLMs and their agentic capabilities have become a big part of how I work. I love
        alt="Conceptual familiar and unfamiliar input distributions with a detection threshold">
 </picture>
 
-### Detecting the unfamiliar
+#### Detecting the unfamiliar
 
 **Model distillation for OOD detection · [ISIR](https://www.isir.upmc.fr/) research internship, 2026**
 
@@ -51,9 +51,9 @@ SLURM · Python · PyTorch · OOD evaluation
        alt="Three aligned panels: mel spectrogram, frequency features and event gaps">
 </picture>
 
-### Listening to biodiversity
+#### Listening to biodiversity
 
-**[BirdCLEF+ 2026 Challenge](https://www.kaggle.com/competitions/birdclef-2026): audio classification · Two-person academic project 👤👤 · 2026**
+**[BirdCLEF+ 2026 Challenge](https://www.kaggle.com/competitions/birdclef-2026): audio classification · 👤👤-person academic project · 2026**
 
 > **This is my hardest pure ML project so far, and the one I'm most proud of.**
 >
@@ -81,9 +81,9 @@ We started with logistic regression, used species taxonomy to build a hierarchic
        alt="True speaker interval and predicted probability with early and late boundary crossings">
 </picture>
 
-### Reading between sentences
+#### The Road to First Place: Sentiment & Speakers
 
-**NLP classification & sequence modelling · Two-person academic project 👤👤 · 2026**
+**NLP classification & sequence modelling · 👤👤-person academic project · 2026**
 
 🥇 Our best pipeline combined CamemBERT and BiLSTM models, achieving **0.899 F1 in grouped out-of-fold evaluation** and earning us **first place on the course project leaderboard**.
 
@@ -112,9 +112,9 @@ PyTorch · RNN (BiLSTM) · Transformers (CamemBERT)
        alt="Sparse user-game matrix connected to a recommendation and review evidence">
 </picture>
 
-### Recommending with reasons
+#### Recommending with reasons
 
-**[Explainable board-game recommender](https://github.com/Franciline/Recommendation_system) · Three-person academic research project 👤👤👤 · 2025**
+**[Explainable board-game recommender](https://github.com/Franciline/Recommendation_system) · 👤👤👤-person academic research project · 2025**
 
 Explaining board-game recommendations with collaborative filtering, NLP and an interactive Dash app.
 
@@ -142,9 +142,9 @@ Local LLM (Ollama) · Clustering · Python · Recommender systems · NLP · Dash
        alt="Global, bridge and local graph layers with a broken middle bridge">
 </picture>
 
-### Following the right paths
+#### Strengthening the Local–Global Bridge
 
-**[HiRAG](https://arxiv.org/abs/2503.10150) paper reproduction & improvement · Three-person academic project 👤👤👤 · 2026**
+**[HiRAG](https://arxiv.org/abs/2503.10150) paper reproduction & improvement · 👤👤-person academic project · 2026**
 
 Improving retrieval and connections between local and global knowledge in a graph-based RAG pipeline.
 
@@ -176,7 +176,7 @@ GraphRAG · ColBERT · Dijkstra · Minimax · MCTS
        alt="Photo of the MXChip board running room telemetry, with its IP address blurred">
 </picture>
 
-### Keeping an eye on my room
+#### Keeping an eye on my room
 
 **[MXChip room telemetry](https://github.com/BshKatrin/mxchip-room-telemetry) · Personal project**
 
@@ -191,7 +191,7 @@ MXChip → FastAPI → InfluxDB → Grafana · C/C++ · Docker
 
 </details>
 
-## Currently working on
+## Current focus & next up
 
 | Course | Project Name | Description |
 | --- | --- | --- |
