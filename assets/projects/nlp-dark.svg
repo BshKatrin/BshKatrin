@@ -1,26 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" width="320" height="200" role="img" aria-labelledby="title desc">
   <title id="title">Reading between sentences</title>
-  <desc id="desc">Neighbouring sentences represented by three rows of token blocks, with a dashed speaker boundary and a small conceptual probability trace. Copper or amber marks the change in context, not a measured prediction.</desc>
+  <desc id="desc">A true speaker interval shown as a rectangular step, with a smooth predicted probability crossing a dashed threshold before the true start and after the true end. Double-ended arrows highlight the boundary lags, inspired by nlp-clf.png. Conceptual, not a measured prediction.</desc>
   <rect width="320" height="200" fill="#171519"/>
-  <g fill="none" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">  <rect x="38" y="40" width="36" height="17" rx="3" fill="#3B342E" stroke="#D3C2AC"/>
-  <rect x="84" y="40" width="49" height="17" rx="3" fill="#3B342E" stroke="#D3C2AC"/>
-  <rect x="143" y="40" width="29" height="17" rx="3" fill="#3B342E" stroke="#D3C2AC"/>
-  <rect x="207" y="40" width="30" height="17" rx="3" fill="#3B342E" stroke="#D3C2AC"/>
-  <rect x="247" y="40" width="34" height="17" rx="3" fill="#3B342E" stroke="#D3C2AC"/>
-  <rect x="38" y="72" width="50" height="17" rx="3" fill="#3B342E" stroke="#D3C2AC"/>
-  <rect x="98" y="72" width="30" height="17" rx="3" fill="#3B342E" stroke="#D3C2AC"/>
-  <rect x="138" y="72" width="39" height="17" rx="3" fill="#3B342E" stroke="#D3C2AC"/>
-  <rect x="207" y="72" width="41" height="17" rx="3" fill="#F2AB59" stroke="#F2AB59"/>
-  <rect x="258" y="72" width="23" height="17" rx="3" fill="#3B342E" stroke="#D3C2AC"/>
-  <rect x="38" y="104" width="29" height="17" rx="3" fill="#3B342E" stroke="#D3C2AC"/>
-  <rect x="77" y="104" width="55" height="17" rx="3" fill="#3B342E" stroke="#D3C2AC"/>
-  <rect x="142" y="104" width="35" height="17" rx="3" fill="#3B342E" stroke="#D3C2AC"/>
-  <rect x="207" y="104" width="27" height="17" rx="3" fill="#3B342E" stroke="#D3C2AC"/>
-  <rect x="244" y="104" width="37" height="17" rx="3" fill="#3B342E" stroke="#D3C2AC"/>
-  <path d="M194 32 V167" stroke="#D3C2AC" stroke-dasharray="5 8"/>
-  <path d="M38 167 H281" stroke="#3B342E"/>
-  <path d="M38 154 C59 154 66 148 84 150 S114 157 131 152 S157 149 170 152" stroke="#D3C2AC"/>
-  <path d="M170 152 C186 156 190 137 205 137 L221 138" stroke="#F2AB59" stroke-width="4"/>
-  <path d="M221 138 C239 140 249 135 261 137 L281 136" stroke="#D3C2AC"/>
+  <g fill="none" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M36 32 V145 H286" stroke="#D3C2AC"/>
+  <path d="M42 96 H283" stroke="#D3C2AC" stroke-dasharray="6 8"/>
+  <path d="M42 142 H116 V48 H210 V142 H282" stroke="#8586B5"/>
+  <path d="M42 140 C61 138 70 128 83 96 S99 63 123 59 C151 53 190 53 214 59 S237 66 249 96 S265 138 282 140" stroke="#F2AB59" stroke-width="4"/>
+  <path d="M83 100 V169 M249 100 V169" stroke="#F2AB59" stroke-dasharray="4 7"/>
+  <path d="M116 149 V173 M210 149 V173" stroke="#8586B5" stroke-dasharray="4 7"/>
+  <path d="M83 166 H116 M89 162 L83 166 L89 170 M110 162 L116 166 L110 170 M210 166 H249 M216 162 L210 166 L216 170 M243 162 L249 166 L243 170" stroke="#F2AB59"/>
+  <g fill="#F2AB59" stroke="none"><circle cx="83" cy="96" r="5"/><circle cx="249" cy="96" r="5"/></g>
   </g>
 </svg>

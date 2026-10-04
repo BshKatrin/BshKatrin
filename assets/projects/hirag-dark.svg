@@ -1,24 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" width="320" height="200" role="img" aria-labelledby="title desc">
-  <title id="title">Following the right paths</title>
-  <desc id="desc">Two sparse knowledge-graph clusters joined by a selected copper or amber route, with nearby text-fragment marks indicating source evidence. The selected route does not imply a guaranteed best answer.</desc>
+  <title id="title">Finding the broken bridge</title>
+  <desc id="desc">Three stacked layers inspired by the HiRAG paper figure: global communities, bridge reasoning paths, and a local knowledge graph. The middle layer has an amber dashed outline and a broken connection marked with a cross, highlighting the problematic bridge.</desc>
   <rect width="320" height="200" fill="#171519"/>
   <g fill="none" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
-  <path d="M63 63 L38 119 L74 158 L109 112 L63 63 M38 119 L109 112 M63 63 L158 80 M212 108 L266 57 L279 136 L232 161 L212 108 M212 108 L279 136" stroke="#D3C2AC"/>
-  <path d="M109 112 L158 80 L212 108" stroke="#F2AB59" stroke-width="4"/>
-  <g fill="#171519" stroke="#D3C2AC">
-    <circle cx="63" cy="63" r="8"/>
-    <circle cx="38" cy="119" r="8"/>
-    <circle cx="74" cy="158" r="8"/>
-    <circle cx="266" cy="57" r="8"/>
-    <circle cx="279" cy="136" r="8"/>
-    <circle cx="232" cy="161" r="8"/>
-  </g>
-  <g fill="#171519" stroke="#F2AB59">
-    <circle cx="109" cy="112" r="9"/>
-    <circle cx="212" cy="108" r="9"/>
-    <rect x="152" y="74" width="12" height="12" rx="2" fill="#F2AB59"/>
-  </g>
-  <path d="M141 39 H179 M141 50 H166 M139 139 H180 M139 150 H164" stroke="#D3C2AC"/>
-  <path d="M158 118 V128" stroke="#3B342E"/>
+  <path d="M52 28 H286 L270 66 H36 Z M52 133 H286 L270 172 H36 Z" fill="#3B342E" stroke="#D3C2AC"/>
+  <path d="M52 80 H286 L270 119 H36 Z" stroke="#F2AB59" stroke-dasharray="7 7"/>
+  <path d="M91 67 V80 M231 67 V80 M91 120 V132 M231 120 V132" stroke="#3B342E" stroke-dasharray="4 6"/>
+  <g fill="#171519" stroke="#D3C2AC"><ellipse cx="103" cy="47" rx="30" ry="11"/><ellipse cx="231" cy="47" rx="25" ry="11"/></g>
+  <path d="M72 99 L105 91 L135 104 L148 99 M180 99 L208 91 L246 103" stroke="#D3C2AC"/>
+  <g fill="#171519" stroke="#D3C2AC"><circle cx="72" cy="99" r="5"/><circle cx="105" cy="91" r="5"/><circle cx="135" cy="104" r="5"/><circle cx="208" cy="91" r="5"/><circle cx="246" cy="103" r="5"/></g>
+  <path d="M158 90 L171 106 M171 90 L158 106" stroke="#F2AB59" stroke-width="4"/>
+  <path d="M70 155 L95 143 L122 159 L70 155 L108 169 L95 143 M122 159 L208 155 M208 155 L232 142 L253 160 L208 155 L232 170 L232 142" stroke="#D3C2AC"/>
+  <g fill="#171519" stroke="#D3C2AC"><circle cx="70" cy="155" r="5"/><circle cx="95" cy="143" r="5"/><circle cx="122" cy="159" r="5"/><circle cx="108" cy="169" r="5"/><circle cx="208" cy="155" r="5"/><circle cx="232" cy="142" r="5"/><circle cx="253" cy="160" r="5"/><circle cx="232" cy="170" r="5"/></g>
   </g>
 </svg>

@@ -1,13 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" width="320" height="200" role="img" aria-labelledby="title desc">
   <title id="title">Listening to biodiversity</title>
-  <desc id="desc">Conceptual time-frequency field with three curved bird-call ridges above restrained background marks. The middle call is copper or amber. This illustration is not a recorded spectrogram.</desc>
+  <desc id="desc">Three schematic panels inspired by subplots 1, 2 and 4 of birdclef.jpg: a mel spectrogram with aligned event bands, frequency features, and previous/next event gaps. Simplified illustration, not measured data.</desc>
   <rect width="320" height="200" fill="#FBF6ED"/>
   <g fill="none" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
-  <path d="M36 36 V163 H286" stroke="#544638"/>
-  <path d="M42 67 H284 M42 109 H284 M92 39 V157 M155 39 V157 M218 39 V157" stroke="#E2D4C2"/>
-  <path d="M48 145 H65 M78 134 H94 M110 148 H124 M139 137 H153 M168 146 H187 M200 132 H218 M238 147 H254 M265 133 H282 M48 90 H57 M110 83 H122 M182 53 H193 M269 94 H282" stroke="#E2D4C2"/>
-  <path d="M54 123 C64 117 67 79 82 71 C95 64 100 86 112 88 M211 116 C224 109 229 68 245 58 C254 53 262 60 273 72" stroke="#544638" stroke-width="4"/>
-  <path d="M130 115 C142 104 147 66 161 61 C174 56 179 79 188 90" stroke="#A45A25" stroke-width="4"/>
-  <path d="M60 132 L72 128 M102 111 L112 108 M151 122 L165 121 M206 149 L217 146 M248 113 L260 111" stroke="#544638"/>
+  <path d="M34 28 V74 H286 M34 91 V125 H286 M34 142 V174 H286" stroke="#544638"/>
+  <path d="M40 40 H284 M40 58 H284 M40 108 H284 M40 158 H284" stroke="#E2D4C2"/>
+  <path d="M43 38 H282 M43 45 H282" stroke="#544638"/>
+  <path d="M43 64 H58 M87 60 H107 M139 65 H161 M184 61 H212 M247 65 H281" stroke="#E2D4C2"/>
+  <path d="M72 30 V72 M124 30 V72 M176 30 V72 M232 30 V72" stroke="#A45A25" stroke-width="7" opacity=".35"/>
+  <path d="M72 45 L75 56 L72 69 M124 45 L127 56 L124 69 M176 45 L179 56 L176 69 M232 45 L235 56 L232 69" stroke="#A45A25"/>
+  <path d="M42 111 L50 101 L58 110 L65 103 L72 121 L79 118 L85 102 L95 108 L105 100 L115 107 L124 122 L132 119 L138 102 L148 109 L158 103 L168 108 L176 121 L184 119 L191 102 L201 108 L211 101 L223 109 L232 121 L240 118 L247 102 L258 109 L270 101 L282 108" stroke="#565B84"/>
+  <path d="M42 103 L51 94 L59 102 L65 96 L72 118 L79 115 L85 95 L95 100 L106 94 L116 100 L124 118 L132 115 L138 94 L149 101 L158 96 L168 100 L176 118 L184 115 L191 95 L202 100 L212 94 L223 101 L232 118 L240 115 L247 95 L259 100 L271 94 L282 100" stroke="#544638"/>
+  <path d="M42 145 H69 L72 172 C77 156 97 151 121 147 L124 172 C129 156 149 151 173 147 L176 172 C181 156 205 151 229 147 L232 172 C237 156 260 151 282 147" stroke="#565B84"/>
+  <path d="M42 151 C56 156 67 160 72 172 L75 148 C94 151 117 157 124 172 L127 148 C147 151 169 157 176 172 L179 148 C200 151 225 157 232 172 L235 145 H282" stroke="#A45A25"/>
   </g>
 </svg>

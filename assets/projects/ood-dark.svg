@@ -7,7 +7,7 @@
   <path d="M32 156 H288" stroke="#D3C2AC"/>
   <path d="M36 156 C65 156 70 148 84 115 C97 84 99 51 121 51 C144 51 151 91 165 122 C177 147 196 156 241 156" stroke="#D3C2AC"/>
   <path d="M80 156 C113 156 127 143 143 120 C159 96 177 76 196 76 C218 76 228 104 241 125 C252 145 264 154 284 156" stroke="#D3C2AC" stroke-dasharray="8 9"/>
-  <path d="M223 62 V167 M216 62 H230" stroke="#F2AB59"/>
-  <circle cx="223" cy="156" r="5" fill="#F2AB59" stroke="#171519"/>
+  <path d="M172 62 V167 M165 62 H179" stroke="#F2AB59"/>
+  <circle cx="172" cy="156" r="5" fill="#F2AB59" stroke="#171519"/>
   </g>
 </svg>
