@@ -180,7 +180,7 @@ Python · Scrapy · Playwright · SHAP · React · TypeScript · Vercel
 
 #### [Recommending with reasons](https://github.com/Franciline/Recommendation_system)
 
-**Explainable board-game recommender** · 👤👤👤-person academic research project · 2025
+**Explainable board-game recommender · 👤👤👤-person academic research project · 2025**
 
 Explaining board-game recommendations with collaborative filtering, NLP and an interactive Dash app.
 
