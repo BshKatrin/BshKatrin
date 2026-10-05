@@ -154,6 +154,8 @@ GraphRAG · ColBERT · Dijkstra · Minimax · MCTS
 
 **Wine rating prediction & interpretation · 👤👤-person academic project · 2025**
 
+For the **Data Science, Learning and Applications (DALAS)** course.
+
 <!-- Predicting public wine ratings from price, origin, grapes and taste, and exploring what drives them with SHAP. -->
 
 <!-- <details>
@@ -167,7 +169,7 @@ Python · Scrapy · Playwright · SHAP · React · TypeScript · Vercel
 
 </details>
 
-[Report →](https://github.com/BshKatrin/Wine-Quality---DALAS/blob/main/DALAS_wine_project.pdf) · [Website →](https://web-seven-omega-81.vercel.app/)
+[Report →](https://github.com/BshKatrin/Wine-Quality---DALAS/blob/main/reports/DALAS_wine_project.pdf) · [Website →](https://decodingthebottle.ekat.world/)
 
 ---
 
