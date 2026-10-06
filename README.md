@@ -156,7 +156,7 @@ GraphRAG · ColBERT · Dijkstra · Minimax · MCTS
 
 What shapes a wine's rating? We wanted to discover the main factors that drive consumer preferences, using only information available to the average consumer: price, winery, alcohol content, etc.
 
-Unlike many uni projects, this one started from scratch: the dataset wasn’t handed to us, so we had to collect and clean the data ourselves. The project then took an unexpected turn: we discovered a strong bias in the data and reframed the problem to try to address it.
+Unlike many uni projects, this one started from scratch: the dataset wasn’t handed to us, so we had to collect and clean the data ourselves. 🤔 The project then took an unexpected turn: we discovered a strong bias in the data and reframed the problem to try to address it.
 
 <details>
 <summary>A sneak peek at our project timeline</summary>
