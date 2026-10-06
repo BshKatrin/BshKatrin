@@ -163,7 +163,7 @@ Unlike many uni projects, this one started from scratch: the dataset wasn’t ha
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/projects/wine-workflow-dark.svg">
-  <img src="assets/projects/wine-workflow-light.svg" width="300"
+  <img src="assets/projects/wine-workflow-light.svg" width="400"
        alt="Wine rating workflow: scrape Vivino and SimpleWine data, clean and merge it, train models, address price bias, explain predictions with SHAP, and deploy CatBoost on Vercel">
 </picture>
 
