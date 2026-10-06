@@ -31,12 +31,12 @@ LLMs and their agentic capabilities have become a big part of how I work. I love
 
 **Model distillation for OOD detection · [ISIR](https://www.isir.upmc.fr/) research internship, 2026**
 
-Exploring teacher–student disagreement and embedding reconstruction for out-of-distribution detection.
+Exploring teacher-student disagreement and embedding reconstruction for out-of-distribution detection.
 
 <details>
 <summary>Research approach</summary>
 
-During my summer internship, I explored whether model distillation could help detect **out-of-distribution (OOD)** data. I studied whether teacher–student disagreement and embedding reconstruction could identify inputs outside a vision model's training distribution, and compared our results with those reported in scientific papers.
+During my summer internship, I explored whether model distillation could help detect **out-of-distribution (OOD)** data. I studied whether teacher-student disagreement and embedding reconstruction could identify inputs outside a vision model's training distribution, and compared our results with those reported in scientific papers.
 
 SLURM · Python · PyTorch · OOD evaluation
 
@@ -114,7 +114,7 @@ PyTorch · RNN (BiLSTM) · Transformers (CamemBERT)
        alt="Global, bridge and local graph layers with a broken middle bridge">
 </picture>
 
-#### [Strengthening the Local–Global Bridge](https://github.com/glouno/RITAL-IR-project/)
+#### [Strengthening the Local-Global Bridge](https://github.com/glouno/RITAL-IR-project/)
 
 **[HiRAG](https://arxiv.org/abs/2503.10150) paper reproduction & improvement · 👤👤-person academic project · 2026**
 
@@ -154,16 +154,96 @@ GraphRAG · ColBERT · Dijkstra · Minimax · MCTS
 
 **Wine rating prediction & interpretation · 👤👤-person academic project · 2025**
 
-<!-- Predicting public wine ratings from price, origin, grapes and taste, and exploring what drives them with SHAP. -->
+What defines a wine's rating? We wanted to discover the main factors that drive consumer preferences, using only data available to the average consumer: price, winery, alcohol percentage, etc.
 
-<!-- <details>
-<summary>Data, models and explanations</summary>
+<details>
+<summary>From data collection to explanations</summary>
 
-We collected wine data from Vivino and SimpleWine, explored it, imputed missing values, and compared Random Forest, XGBoost and CatBoost models. We also studied whether a wine is rated above the average of others in the same price range, and used SHAP to understand the factors behind the predictions.
+This project was part of a Data Science course, and we had to start from zero data. We collected wine information from two websites using **Scrapy** and **Playwright**, reverse-engineered an API to bypass CAPTCHA restrictions on one website, and scraped raw HTML pages from the other. We also used a VPN to access wines from different regions.
 
-To showcase our best results we built a website, deployed on Vercel. You can browse **9,329 held-out test wines**, compare actual and predicted ratings, and explore individual SHAP explanations.  -->
+```mermaid
+---
+config:
+  fontFamily: Arial, sans-serif
+  themeCSS: |
+    /* Offset routes to match the two additional grid rows. */
+    .flowchart-link { stroke: #487BA5 !important; stroke-width: 2px; transform: translateY(-92px); }
+    path[id$="-regression-classification"], path[id$="-classification-explanationJoin"] { stroke: #C27620 !important; }
+    path[id$="-regression-rf"], path[id$="-regression-xgb"], path[id$="-regression-cat"], path[id$="-cat-deploymentJoin"] { stroke: #8AAA92 !important; stroke-width: 1px; stroke-dasharray: 3 4; }
+    /* Curved routes share a junction before each common destination. */
+    path[id$="-vivino-collectionJoin"] { d: path("M 132 -326 C 132 -280 313.333 -288 313.333 -250"); }
+    path[id$="-simplewine-collectionJoin"] { d: path("M 585.333 -326 C 585.333 -280 313.333 -288 313.333 -250"); }
+    path[id$="-collectionJoin-data"] { d: path("M 313.333 -250 L 313.333 -226"); }
+    path[id$="-data-regression"] { d: path("M 313.333 -142 L 313.333 -42"); }
+    path[id$="-regression-explanationJoin"] { d: path("M 313.333 42 C 313.333 92 445 65 445 120 L 445 230 C 445 284 313.333 270 313.333 304"); }
+    path[id$="-regression-classification"] { d: path("M 273.333 42 C 273.333 92 132 94 132 142"); }
+    path[id$="-classification-explanationJoin"] { d: path("M 132 226 C 132 268 313.333 265 313.333 304"); }
+    path[id$="-explanationJoin-shap"] { d: path("M 313.333 304 L 313.333 326"); }
+    path[id$="-regression-rf"] { d: path("M 437.333 -16 C 491 -16 491 -92 549.667 -92"); }
+    path[id$="-regression-xgb"] { d: path("M 437.333 0 L 549.667 0"); }
+    path[id$="-regression-cat"] { d: path("M 437.333 16 C 491 16 491 92 549.667 92"); }
+    path[id$="-shap-deploymentJoin"] { d: path("M 313.333 410 L 313.333 488"); }
+    path[id$="-cat-deploymentJoin"] { d: path("M 630.667 118 C 630.667 250 630.667 415 560 455 C 500 495 313.333 452 313.333 488"); }
+    path[id$="-deploymentJoin-website"] { d: path("M 313.333 488 L 313.333 510"); }
+    g.edgeLabel:has(g[data-id$="-cat-deploymentJoin"]) { transform: translate(593.6px, 326.9px); }
+    g.edgeLabel:has(g[data-id$="-vivino-collectionJoin"]) { transform: translate(222.667px, -377px); }
+    g.edgeLabel:has(g[data-id$="-simplewine-collectionJoin"]) { transform: translate(449.333px, -377px); }
+    g.edgeLabel:has(g[data-id$="-regression-classification"]) { transform: translate(202.667px, 0px); }
+    g.edgeLabel { font-size: 14px; }
+    .reformulation p, .deployment p { line-height: 1.25; }
+    marker path { fill: context-stroke; stroke: context-stroke; }
+    .edgeLabel, .edgeLabel p, .edgeLabel .labelBkg { background-color: #ffffff !important; color: #374151 !important; }
+    .edgeLabel rect { fill: #ffffff !important; }
+    @media (prefers-color-scheme: dark) {
+      .edgeLabel, .edgeLabel p, .edgeLabel .labelBkg { background-color: #0d1117 !important; color: #d1d5db !important; }
+      .edgeLabel rect { fill: #0d1117 !important; }
+    }
+---
+block-beta
+    columns 8
+    vivino["Scrape wine data<br/>from Vivino"]:3 space:2 simplewine["Scrape wine data<br/>from SimpleWine"]:3
+    space:2 collectionJoin[" "]:3 space:3
+    space:2 data["Clean, normalise<br/>and merge scraped data"]:3 space:3
+    space:6 rf["Random Forest"]:2
+    space:2 regression["Classical ML model<br/>training (regression)"]:3 space xgb["XGBoost"]:2
+    space:6 cat["CatBoost"]:2
+    classification["Reformulate as classification<br/>to reduce price bias:<br/>above / below the average rating<br/>within each price range"]:3 space:5
+    space:2 explanationJoin[" "]:3 space:3
+    space:2 shap["Explain model predictions<br/>with SHAP"]:3 space:3
+    space:2 deploymentJoin[" "]:3 space:3
+    space:2 website["Website deployed on Vercel<br/>Explore predictions and<br/>explanations for individual wines"]:3 space:3
 
-Python · Scrapy · Playwright · SHAP · React · TypeScript · Vercel
+    vivino -- "Reverse-engineered API<br/>to bypass CAPTCHA" --- collectionJoin
+    simplewine -- "Static HTML scraping<br/>with Scrapy + Playwright" --- collectionJoin
+    collectionJoin --> data
+    data --> regression
+    regression --- explanationJoin
+    regression -- "Price bias discovered<br/>in consumer ratings" --> classification
+    classification --- explanationJoin
+    explanationJoin --> shap
+    regression --> rf
+    regression --> xgb
+    regression --> cat
+    shap --- deploymentJoin
+    cat -- "Best-performing<br/>model" --- deploymentJoin
+    deploymentJoin --> website
+
+    %% Fixed dimensions keep the grid and connector anchors consistent.
+    classDef main fill:#DBEAFE,stroke:#2563A6,color:#153A5B,stroke-width:2px,font-size:16px,font-weight:600,width:248px,height:84px,x:-124px,y:-42px
+    classDef model fill:#EDF5EE,stroke:#8AAA92,color:#355640,stroke-width:1px,font-size:13px,width:162px,height:52px,x:-81px,y:-26px
+    classDef reformulation fill:#FFF0DB,stroke:#C27620,color:#75430F,stroke-width:2px,font-size:14px,width:248px,height:84px,x:-124px,y:-42px
+    classDef deployment fill:#DBEAFE,stroke:#2563A6,color:#153A5B,stroke-width:2px,font-size:14px,font-weight:600,width:248px,height:84px,x:-124px,y:-42px
+    classDef junction fill:none,stroke:none,color:transparent,width:0px,height:0px,x:0px,y:0px
+    class vivino,simplewine,data,regression,shap main
+    class rf,xgb,cat model
+    class classification reformulation
+    class website deployment
+    class collectionJoin,explanationJoin,deploymentJoin junction
+```
+
+We finished the project by deploying a website on Vercel to explore our best model's predictions for wines in the test split, compare them with real ratings, and see what influenced each prediction.
+
+Python · Scrapy · Playwright · Data cleaning · SHAP · React · TypeScript · Vercel
 
 </details>
 
@@ -189,7 +269,7 @@ Explaining board-game recommendations with collaborative filtering, NLP and an i
 
 The goal was to build an explainable recommendation system from board-game information, reviews and user profiles scraped from the French website TricTrac in 2023.
 
-We explored collaborative filtering methods, including k-NN and matrix factorisation, and worked on explaining the recommendations. For each game, we wanted to predict the rating a user might give and produce a review-like explanation of why they might enjoy it — or dislike it. Along the way, we experimented with embeddings, clustering, a local LLM, and NLP evaluation methods such as ROUGE and BLEU.
+We explored collaborative filtering methods, including k-NN and matrix factorisation, and worked on explaining the recommendations. For each game, we wanted to predict the rating a user might give and produce a review-like explanation of why they might enjoy it - or dislike it. Along the way, we experimented with embeddings, clustering, a local LLM, and NLP evaluation methods such as ROUGE and BLEU.
 
 To demonstrate the results, we also built a Dash app with interactive 3D cluster exploration rendered using **deck.gl**, configured through **pydeck** and embedded with **dash-deck**.
 
