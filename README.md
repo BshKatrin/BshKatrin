@@ -247,7 +247,7 @@ Python · Scrapy · Playwright · Data cleaning · SHAP · React · TypeScript �
 
 </details>
 
-[Report →](https://github.com/BshKatrin/Wine-Quality---DALAS/blob/main/DALAS_wine_project.pdf) · [Website →](https://web-seven-omega-81.vercel.app/)
+[Report →](https://github.com/BshKatrin/Wine-Quality---DALAS/blob/main/reports/DALAS_wine_project.pdf) · [Website →](https://decodingthebottle.ekat.world/)
 
 ---
 
