@@ -154,24 +154,22 @@ GraphRAG · ColBERT · Dijkstra · Minimax · MCTS
 
 **Wine rating prediction & interpretation · 👤👤-person academic project · 2025**
 
-What defines a wine's rating? We wanted to discover the main factors that drive consumer preferences, using only data available to the average consumer: price, winery, alcohol percentage, etc.
+What shapes a wine's rating? We wanted to discover the main factors that drive consumer preferences, using only information available to the average consumer: price, winery, alcohol content, etc.
+
+Unlike many uni projects, this one started from scratch: the dataset wasn’t handed to us, so we had to collect and clean the data ourselves. The project then took an unexpected turn: we discovered a strong bias in the data and reframed the problem to try to address it.
 
 <details>
-<summary>From data collection to explanations</summary>
-
-This project was part of a Data Science course, and we had to start from zero data. We collected wine information from two websites using **Scrapy** and **Playwright**, reverse-engineered an API to bypass CAPTCHA restrictions on one website, and scraped raw HTML pages from the other. We also used a VPN to access wines from different regions.
+<summary>A sneak peek at our project timeline</summary>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/projects/wine-workflow-dark.svg">
-  <img src="assets/projects/wine-workflow-light.svg" width="600"
+  <img src="assets/projects/wine-workflow-light.svg" width="300"
        alt="Wine rating workflow: scrape Vivino and SimpleWine data, clean and merge it, train models, address price bias, explain predictions with SHAP, and deploy CatBoost on Vercel">
 </picture>
 
-[Mermaid source](wine-workflow.mmd)
+Python · Scrapy · Playwright · Data cleaning · Imputation · Classical ML · SHAP · React · TypeScript · Vercel
 
-We finished the project by deploying a website on Vercel to explore our best model's predictions for wines in the test split, compare them with real ratings, and see what influenced each prediction.
-
-Python · Scrapy · Playwright · Data cleaning · SHAP · React · TypeScript · Vercel
+<br clear="both">
 
 </details>
 
