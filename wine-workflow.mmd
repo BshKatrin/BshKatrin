@@ -1,0 +1,77 @@
+---
+config:
+  fontFamily: Arial, sans-serif
+  themeCSS: |
+    /* Offset routes to match the two additional grid rows. */
+    .flowchart-link { stroke: #487BA5 !important; stroke-width: 2px; transform: translateY(-92px); }
+    path[id$="-regression-classification"], path[id$="-classification-explanationJoin"] { stroke: #C27620 !important; }
+    path[id$="-regression-rf"], path[id$="-regression-xgb"], path[id$="-regression-cat"], path[id$="-cat-deploymentJoin"] { stroke: #8AAA92 !important; stroke-width: 1px; stroke-dasharray: 3 4; }
+    /* Curved routes share a junction before each common destination. */
+    path[id$="-vivino-collectionJoin"] { d: path("M 132 -326 C 132 -280 313.333 -288 313.333 -250"); }
+    path[id$="-simplewine-collectionJoin"] { d: path("M 585.333 -326 C 585.333 -280 313.333 -288 313.333 -250"); }
+    path[id$="-collectionJoin-data"] { d: path("M 313.333 -250 L 313.333 -226"); }
+    path[id$="-data-regression"] { d: path("M 313.333 -142 L 313.333 -42"); }
+    path[id$="-regression-explanationJoin"] { d: path("M 313.333 42 C 313.333 92 445 65 445 120 L 445 230 C 445 284 313.333 270 313.333 304"); }
+    path[id$="-regression-classification"] { d: path("M 273.333 42 C 273.333 92 132 94 132 142"); }
+    path[id$="-classification-explanationJoin"] { d: path("M 132 226 C 132 268 313.333 265 313.333 304"); }
+    path[id$="-explanationJoin-shap"] { d: path("M 313.333 304 L 313.333 326"); }
+    path[id$="-regression-rf"] { d: path("M 437.333 -16 C 491 -16 491 -92 549.667 -92"); }
+    path[id$="-regression-xgb"] { d: path("M 437.333 0 L 549.667 0"); }
+    path[id$="-regression-cat"] { d: path("M 437.333 16 C 491 16 491 92 549.667 92"); }
+    path[id$="-shap-deploymentJoin"] { d: path("M 313.333 410 L 313.333 488"); }
+    path[id$="-cat-deploymentJoin"] { d: path("M 630.667 118 C 630.667 250 630.667 415 560 455 C 500 495 313.333 452 313.333 488"); }
+    path[id$="-deploymentJoin-website"] { d: path("M 313.333 488 L 313.333 510"); }
+    g.edgeLabel:has(g[data-id$="-cat-deploymentJoin"]) { transform: translate(593.6px, 326.9px); }
+    g.edgeLabel:has(g[data-id$="-vivino-collectionJoin"]) { transform: translate(222.667px, -377px); }
+    g.edgeLabel:has(g[data-id$="-simplewine-collectionJoin"]) { transform: translate(449.333px, -377px); }
+    g.edgeLabel:has(g[data-id$="-regression-classification"]) { transform: translate(202.667px, 0px); }
+    g.edgeLabel { font-size: 14px; }
+    .reformulation p, .deployment p { line-height: 1.25; }
+    marker path { fill: context-stroke; stroke: context-stroke; }
+    .edgeLabel, .edgeLabel p, .edgeLabel .labelBkg { background-color: #ffffff !important; color: #374151 !important; }
+    .edgeLabel rect { fill: #ffffff !important; }
+    @media (prefers-color-scheme: dark) {
+      .edgeLabel, .edgeLabel p, .edgeLabel .labelBkg { background-color: #0d1117 !important; color: #d1d5db !important; }
+      .edgeLabel rect { fill: #0d1117 !important; }
+    }
+---
+block-beta
+    columns 8
+    vivino["Scrape wine data<br/>from Vivino"]:3 space:2 simplewine["Scrape wine data<br/>from SimpleWine"]:3
+    space:2 collectionJoin[" "]:3 space:3
+    space:2 data["Clean, normalise<br/>and merge scraped data"]:3 space:3
+    space:6 rf["Random Forest"]:2
+    space:2 regression["Classical ML model<br/>training (regression)"]:3 space xgb["XGBoost"]:2
+    space:6 cat["CatBoost"]:2
+    classification["Reformulate as classification<br/>to reduce price bias:<br/>above / below the average rating<br/>within each price range"]:3 space:5
+    space:2 explanationJoin[" "]:3 space:3
+    space:2 shap["Explain model predictions<br/>with SHAP"]:3 space:3
+    space:2 deploymentJoin[" "]:3 space:3
+    space:2 website["Website deployed on Vercel<br/>Explore predictions and<br/>explanations for individual wines"]:3 space:3
+
+    vivino -- "Reverse-engineered API<br/>to bypass CAPTCHA" --- collectionJoin
+    simplewine -- "Static HTML scraping<br/>with Scrapy + Playwright" --- collectionJoin
+    collectionJoin --> data
+    data --> regression
+    regression --- explanationJoin
+    regression -- "Price bias discovered<br/>in consumer ratings" --> classification
+    classification --- explanationJoin
+    explanationJoin --> shap
+    regression --> rf
+    regression --> xgb
+    regression --> cat
+    shap --- deploymentJoin
+    cat -- "Best-performing<br/>model" --- deploymentJoin
+    deploymentJoin --> website
+
+    %% Fixed dimensions keep the grid and connector anchors consistent.
+    classDef main fill:#DBEAFE,stroke:#2563A6,color:#153A5B,stroke-width:2px,font-size:16px,font-weight:600,width:248px,height:84px,x:-124px,y:-42px
+    classDef model fill:#EDF5EE,stroke:#8AAA92,color:#355640,stroke-width:1px,font-size:13px,width:162px,height:52px,x:-81px,y:-26px
+    classDef reformulation fill:#FFF0DB,stroke:#C27620,color:#75430F,stroke-width:2px,font-size:14px,width:248px,height:84px,x:-124px,y:-42px
+    classDef deployment fill:#DBEAFE,stroke:#2563A6,color:#153A5B,stroke-width:2px,font-size:14px,font-weight:600,width:248px,height:84px,x:-124px,y:-42px
+    classDef junction fill:none,stroke:none,color:transparent,width:0px,height:0px,x:0px,y:0px
+    class vivino,simplewine,data,regression,shap main
+    class rf,xgb,cat model
+    class classification reformulation
+    class website deployment
+    class collectionJoin,explanationJoin,deploymentJoin junction
