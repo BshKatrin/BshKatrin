@@ -38,9 +38,11 @@ Exploring teacher-student disagreement and embedding reconstruction for out-of-d
 
 During my summer internship, I explored whether model distillation could help detect **out-of-distribution (OOD)** data. I studied whether teacher-student disagreement and embedding reconstruction could identify inputs outside a vision model's training distribution, and compared our results with those reported in scientific papers.
 
-SLURM · Python · PyTorch · OOD evaluation
-
 </details>
+
+<br>
+
+SLURM · Python · PyTorch · OOD evaluation
 
 [Presentation slides →](https://github.com/BshKatrin/distill-ood-detection/blob/main/reports/presentations/internship/presentation.pdf)
 
@@ -99,9 +101,11 @@ This project involved 2 tasks:
 
 In the second dataset, consecutive sentences belonged to the same speech. To improve performance, we had to go beyond independent predictions and model the sequential dependency between consecutive sentences.
 
-PyTorch · RNN (BiLSTM) · Transformers (CamemBERT)
-
 </details>
+
+<br>
+
+PyTorch · RNN (BiLSTM) · Transformers (CamemBERT)
 
 [Report source →](https://github.com/BshKatrin/RITAL-NLP-project/blob/main/report.pdf)
 
@@ -135,9 +139,11 @@ We evaluated performance with:
 - LLM-as-a-judge evaluation
 - Human annotation
 
-GraphRAG · ColBERT · Dijkstra · Minimax · MCTS
-
 </details>
+
+<br>
+
+Hierarchical Graphs · ColBERT · Dijkstra · Minimax · MCTS
 
 [Presentation slides →](https://github.com/glouno/RITAL-IR-project/blob/master/presentation.pdf)
 
@@ -167,11 +173,13 @@ Unlike many uni projects, this one started from scratch: the dataset wasn’t ha
        alt="Wine rating workflow: scrape Vivino and SimpleWine data, clean and merge it, train models, address price bias, explain predictions with SHAP, and deploy CatBoost on Vercel">
 </picture>
 
-Python · Scrapy · Playwright · Data cleaning · Imputation · Classical ML · SHAP · React · TypeScript · Vercel
-
 <br clear="both">
 
 </details>
+
+<br>
+
+Python · Scrapy · Playwright · Data cleaning · Imputation · Classical ML · SHAP · React · TypeScript · Vercel
 
 [Report →](https://github.com/BshKatrin/Wine-Quality---DALAS/blob/main/reports/DALAS_wine_project.pdf) · [Website →](https://decodingthebottle.ekat.world/)
 
@@ -199,9 +207,11 @@ We explored collaborative filtering methods, including k-NN and matrix factorisa
 
 To demonstrate the results, we also built a Dash app with interactive 3D cluster exploration rendered using **deck.gl**, configured through **pydeck** and embedded with **dash-deck**.
 
-Local LLM (Ollama) · Clustering · Python · Recommender systems · NLP · Dash · deck.gl
-
 </details>
+
+<br>
+
+Local LLM · Clustering · Python · Recommender systems · NLP · Dash · deck.gl
 
 [Report →](https://github.com/Franciline/Recommendation_system/blob/main/reports/Project_Report.pdf) · [Demo →](https://github.com/Franciline/Recommendation_system/blob/main/reports/Preview_video.mp4)
 
@@ -225,9 +235,11 @@ Tracking room temperature, pressure and humidity with MXChip, FastAPI, InfluxDB 
 
 My personal project for keeping an eye on my room's temperature, pressure and humidity. I wanted to see how bad things got during Paris's summer heatwaves, even while I was away at my internship. Currenly deployed on AWS architecture.
 
-MXChip → FastAPI → InfluxDB → Grafana · C/C++ · Docker
-
 </details>
+
+<br>
+
+MXChip → FastAPI → InfluxDB → Grafana · C/C++ · Docker
 
 ## Current focus & next up
 
