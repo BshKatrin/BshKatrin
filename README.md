@@ -44,7 +44,7 @@ During my summer internship, I explored whether model distillation could help de
 
 SLURM · Python · PyTorch · OOD evaluation
 
-[Presentation slides →](https://github.com/BshKatrin/distill-ood-detection/blob/main/reports/presentations/internship/presentation.pdf)
+[Presentation slides →](https://reports.ekat.world/ood-detection-2026/slides.pdf)
 
 ---
 
@@ -61,7 +61,7 @@ SLURM · Python · PyTorch · OOD evaluation
 
 > **This is my hardest pure ML project so far, and the one I'm most proud of.**
 >
-> Have a look at our [report source →](https://github.com/glouno/birdclef_2026_ML/blob/master/rapport.pdf) to see how we approached it.
+> Have a look at our [report →](https://reports.ekat.world/birdclef-2026/report.pdf) to see how we approached it.
 
 Classical ML for biodiversity audio, with a best result of **0.749 ROC-AUC on noisy soundscapes**.
 
@@ -107,7 +107,7 @@ In the second dataset, consecutive sentences belonged to the same speech. To imp
 
 PyTorch · RNN (BiLSTM) · Transformers (CamemBERT)
 
-[Report source →](https://github.com/BshKatrin/RITAL-NLP-project/blob/main/report.pdf)
+[Report →](https://reports.ekat.world/rital-nlp-2026/report.pdf)
 
 ---
 
@@ -145,7 +145,7 @@ We evaluated performance with:
 
 Hierarchical Graphs · ColBERT · Dijkstra · Minimax · MCTS
 
-[Presentation slides →](https://github.com/glouno/RITAL-IR-project/blob/master/presentation.pdf)
+[Presentation slides →](https://reports.ekat.world/hirag-2026/slides.pdf)
 
 ---
 
@@ -181,7 +181,7 @@ Unlike many uni projects, this one started from scratch: the dataset wasn’t ha
 
 Python · Scrapy · Playwright · Data cleaning · Imputation · Classical ML · SHAP · React · TypeScript · Vercel
 
-[Report →](https://github.com/BshKatrin/Wine-Quality---DALAS/blob/main/reports/DALAS_wine_project.pdf) · [Website →](https://decodingthebottle.ekat.world/)
+[Report →](https://reports.ekat.world/wine-quality-2025/report.pdf) · [Website →](https://decodingthebottle.ekat.world/)
 
 ---
 
@@ -213,7 +213,7 @@ To demonstrate the results, we also built a Dash app with interactive 3D cluster
 
 Local LLM · Clustering · Python · Recommender systems · NLP · Dash · deck.gl
 
-[Report →](https://github.com/Franciline/Recommendation_system/blob/main/reports/Project_Report.pdf) · [Demo →](https://github.com/Franciline/Recommendation_system/blob/main/reports/Preview_video.mp4)
+[Report →](https://reports.ekat.world/board-game-recommender-2025/report.pdf) · [Demo →](https://github.com/Franciline/Recommendation_system/blob/main/reports/Preview_video.mp4)
 
 ---
 
