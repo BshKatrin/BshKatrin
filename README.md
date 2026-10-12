@@ -246,7 +246,7 @@ MXChip → FastAPI → InfluxDB → Grafana · C/C++ · Docker
 | Course | Project Name | Description | Status |
 | --- | --- | --- | --- |
 | Methodology in Data Science and Research | [τ²-bench analysis](https://arxiv.org/pdf/2506.07982v1) | Looking for weaknesses and biases in this LLM agent benchmark, and exploring how to achieve strong scores at a lower cost. | 🚧 In progress |
-| Reinforcement Learning | Mini-project: Overestimation bias in DDPG and TD3 on LunarLander | Studying how layer normalization affects Q-value overestimation and how that bias affects performance. [Report ↗](https://reports.ekat.world/lunarlander-ddpg-td3-2026/report.pdf) | ⏳ Not started |
+| Reinforcement Learning | Mini-project: Overestimation bias in DDPG and TD3 on LunarLander | Studying how layer normalization affects Q-value overestimation and how that bias affects performance. [Report ↗](https://reports.ekat.world/lunarlander-ddpg-td3-2026/report.pdf) | ✅ Done |
 | Reinforcement Learning | Mini-project: DAgger vs balanced sampling in SuperTuxKart | Comparing DAgger and balanced sampling to see which trains an agent to complete a solo lap faster. | ⏳ Not started |
 | Reinforcement Learning | Project: SuperTuxKart driving competition | Designing our own RL training strategy and experimenting to find what makes our driving agent competitive against other teams in SuperTuxKart. | ⏳ Not started |
 | Explainable AI | Critical reading of XAI research papers | Analysing explainable AI papers to identify their strengths and limitations. | ⏳ Not started |
